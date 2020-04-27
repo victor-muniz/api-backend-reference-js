@@ -4,14 +4,14 @@
   "description": "Pacote contendo arquitetura de referência em javascript para desenvolvimento de api na plataforma AWS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-	"doc": "jsdoc -c jsdoc.json"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/victor-muniz/api-backend-reference-js.git"
   },
-   "devDependencies": {
+  "devDependencies": {
     "aws-sdk": "^2.526.0",
     "chai": "^4.2.0",
     "jsdoc": "^3.6.4",
@@ -19,5 +19,4 @@
   },
   "author": "Victor Rosa",
   "license": "ISC"
-  
 }
