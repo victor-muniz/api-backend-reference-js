@@ -4,12 +4,15 @@
   "description": "Pacote contendo arquitetura de referência em javascript para desenvolvimento de api na plataforma AWS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "doc": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/victor-muniz/api-backend-reference-js.git"
+  },
+  "dependencies": {
+    "joi": "^14.3.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.526.0",
